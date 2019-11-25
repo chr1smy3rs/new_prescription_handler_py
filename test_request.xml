@@ -1,0 +1,130 @@
+<?xml version="1.0" ?> 
+<Message DatatypesVersion="20170715" TransportVersion="20170715" TransactionDomain="SCRIPT" TransactionVersion="20170715" StructuresVersion="20170715" ECLVersion="20170715">
+<Header>
+  <To Qualifier="P">1111111</To> 
+  <From Qualifier="D">2222222222222</From> 
+  <MessageID>88482fbbf7504923afe8d2de5ff9d267</MessageID> 
+  <SentTime>2019-08-27T18:25:20.5801252Z</SentTime> 
+<Security>
+<Sender>
+  <TertiaryIdentification>333333</TertiaryIdentification> 
+  </Sender>
+<Receiver>
+  <TertiaryIdentification>444</TertiaryIdentification> 
+  </Receiver>
+  </Security>
+<SenderSoftware>
+  <SenderSoftwareDeveloper>NA translated from another version</SenderSoftwareDeveloper> 
+  <SenderSoftwareProduct>NA translated from another version</SenderSoftwareProduct> 
+  <SenderSoftwareVersionRelease>NA translated from another version</SenderSoftwareVersionRelease> 
+  </SenderSoftware>
+  <PrescriberOrderNumber>123456</PrescriberOrderNumber> 
+  </Header>
+<Body>
+<NewRx>
+<Patient>
+<HumanPatient>
+<Name>
+  <LastName>Guy</LastName> 
+  <FirstName>Some</FirstName> 
+  </Name>
+  <Gender>M</Gender> 
+<DateOfBirth>
+  <Date>1970-01-01</Date> 
+  </DateOfBirth>
+<Address>
+  <AddressLine1>1234 Some St.</AddressLine1> 
+  <City>Philadelphia</City> 
+  <StateProvince>PA</StateProvince> 
+  <PostalCode>19146</PostalCode> 
+  <CountryCode>US</CountryCode> 
+  </Address>
+  </HumanPatient>
+  </Patient>
+<Pharmacy>
+<Identification>
+  <NCPDPID>12345678</NCPDPID> 
+  <NPI>1234567890</NPI> 
+  </Identification>
+  <BusinessName>Some Pharmacy</BusinessName> 
+<Address>
+  <AddressLine1>1234 Pharmacy St.</AddressLine1> 
+  <City>Philadelphia</City> 
+  <StateProvince>PA</StateProvince> 
+  <PostalCode>19146</PostalCode> 
+  <CountryCode>US</CountryCode> 
+  </Address>
+<CommunicationNumbers>
+<PrimaryTelephone>
+  <Number>7171234567</Number> 
+  </PrimaryTelephone>
+<Fax>
+  <Number>8001234567</Number> 
+  </Fax>
+  </CommunicationNumbers>
+  </Pharmacy>
+<Prescriber>
+<NonVeterinarian>
+<Identification>
+  <StateLicenseNumber>NY-12345678</StateLicenseNumber> 
+  <DEANumber>BD1234567</DEANumber> 
+  <NPI>1234567890/NPI> 
+  </Identification>
+<Name>
+  <LastName>Guy</LastName> 
+  <FirstName>Other</FirstName> 
+  <Suffix>MD</Suffix> 
+  <Prefix>DR</Prefix> 
+  </Name>
+<Address>
+  <AddressLine1>1234 Doctors St.</AddressLine1> 
+  <City>Brooklyn</City> 
+  <StateProvince>NY</StateProvince> 
+  <PostalCode>11210</PostalCode> 
+  <CountryCode>US</CountryCode> 
+  </Address>
+<CommunicationNumbers>
+<PrimaryTelephone>
+  <Number>3471234567</Number> 
+  </PrimaryTelephone>
+  <ElectronicMail>other.guy@somewhere.com</ElectronicMail> 
+<Fax>
+  <Number>3477654321</Number> 
+  </Fax>
+<HomeTelephone>
+  <Number>3471111111</Number> 
+  </HomeTelephone>
+  </CommunicationNumbers>
+  </NonVeterinarian>
+  </Prescriber>
+<MedicationPrescribed>
+  <DrugDescription>Some description</DrugDescription> 
+<DrugCoded>
+<ProductCode>
+  <Code>00111111111</Code> 
+  <Qualifier>ND</Qualifier> 
+  </ProductCode>
+<DrugDBCode>
+  <Code>222222</Code> 
+  <Qualifier>SCD</Qualifier> 
+  </DrugDBCode>
+  </DrugCoded>
+<Quantity>
+  <Value>14.555</Value> 
+  <CodeListQualifier>38</CodeListQualifier> 
+<QuantityUnitOfMeasure>
+  <Code>C48155</Code> 
+  </QuantityUnitOfMeasure>
+  </Quantity>
+<WrittenDate>
+  <DateTime>2019-08-27T18:23:57.1284728Z</DateTime> 
+  </WrittenDate>
+  <Substitutions>0</Substitutions> 
+  <NumberOfRefills>0</NumberOfRefills> 
+<Sig>
+  <SigText>apply as directed</SigText> 
+  </Sig>
+  </MedicationPrescribed>
+  </NewRx>
+  </Body>
+  </Message>
